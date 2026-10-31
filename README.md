@@ -4,15 +4,13 @@
 
 Professional author website for **cipherlibrarian.com**, featuring *Secrets of the Cipher Museum*, a growing bookshelf, an About page, and connections to Cipher Museum and Crypto Lab.
 
-## Publish with GitHub Pages
+## Publish with GitHub Actions
 
-The site is ready to serve directly from this repository; no build service, package install, API key, or runtime server is required.
+The deployment workflow is `.github/workflows/pages.yml`. It runs on every push to `main` and can also be started manually from the **Actions** tab. It regenerates the static pages, stages only website files, uploads the Pages artifact, and deploys it to the `github-pages` environment.
 
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then **Save**.
-4. Set the custom domain to **cipherlibrarian.com** and save it before changing DNS.
-5. At the domain provider, set the following website DNS records:
+1. Open **Settings → Pages** and select **GitHub Actions** as the source.
+2. In the same settings, set the custom domain to **cipherlibrarian.com**. With Actions, this repository’s `CNAME` file documents the intended domain; the domain must also be set in Pages settings.
+3. At GoDaddy, use these website DNS records:
 
 | Type | Name | Value |
 | --- | --- | --- |
@@ -22,11 +20,11 @@ The site is ready to serve directly from this repository; no build service, pack
 | A | @ | 185.199.111.153 |
 | CNAME | www | systemslibrarian.github.io |
 
-Replace conflicting website records for those same names as appropriate. Keep mail and other unrelated records. Enable **Enforce HTTPS** when GitHub makes it available.
+Keep mail and unrelated DNS records. Enable **Enforce HTTPS** when GitHub makes it available. Confirm a successful run in **Actions → Deploy author website to GitHub Pages** before treating a push as published.
 
-Official references: [GitHub Pages publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) · [Custom domain configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+No package install, API key, or runtime server is required. The workflow uses the repository’s scoped GitHub token and GitHub’s Pages deployment actions.
 
-These instructions prepare publication. Repository contents alone do not prove that Pages, DNS, or HTTPS is active.
+Official references: [Custom GitHub Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) · [Custom domain configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 ## Edit and maintain
 
