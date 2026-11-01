@@ -44,7 +44,9 @@ Official references: [Custom GitHub Pages workflows](https://docs.github.com/en/
 
 ## Content and assets
 
-The current book title, subtitle, description, excerpt, and cover came from Paul’s book files and the existing public museum companion on October 31, 2026. The book is marked **Forthcoming**. There are no invented reviews, prices, release dates, or purchase links.
+The book description and opening excerpt match the **1 November 2026 manuscript revision** and the [public museum companion](https://ciphermuseum.com/the-book.html). The approved title, subtitle, cover, and reader promise are retained. Twenty true investigations follow hidden messages into contested evidence and consequential decisions; the new prologue opens with the modern recovery of Mary Stuart’s letters. Chapter 20 completes that recovery. The history stands on its own, with optional museum exhibits and a fictional reader mystery.
+
+The book is marked **Forthcoming**. There are no invented reviews, prices, release dates, or purchase links. The website publishes an excerpt, not the full manuscript.
 
 Original code-native SVG illustrations connect historical ciphers and modern security. Images and fonts are served locally. DM Sans and Newsreader are included under their SIL Open Font Licenses in `assets/`.
 
