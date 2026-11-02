@@ -48,6 +48,8 @@ The book description and opening excerpt match the **2 November 2026 reader-expe
 
 The book page links directly to the museum’s twenty-chapter directory, describes the four optional slips and notebook, and lists eight diagrams plus six documentary images.
 
+The positioning follow-up adds a reader FAQ explaining the book’s emphasis alongside Kahn and Singh and the division between nonfiction and optional fiction. Featured stories link to the Babington delivery route, Zimmermann message routes and Z340 published-solution replay. The reading-group answer links to a suggested 30-minute guide with an optional puzzle warm-up. Homepage and bookshelf copy use concrete exhibit actions; no exclusivity or sales claim is added.
+
 The book is marked **Forthcoming**. There are no invented reviews, prices, release dates, or purchase links. The website publishes an excerpt, not the full manuscript.
 
 Original code-native SVG illustrations connect historical ciphers and modern security. Images and fonts are served locally. DM Sans and Newsreader are included under their SIL Open Font Licenses in `assets/`.
