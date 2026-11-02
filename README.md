@@ -44,7 +44,9 @@ Official references: [Custom GitHub Pages workflows](https://docs.github.com/en/
 
 ## Content and assets
 
-The book description and opening excerpt match the **1 November 2026 manuscript revision** and the [public museum companion](https://ciphermuseum.com/the-book.html). The approved title, subtitle, cover, and reader promise are retained. Twenty true investigations follow hidden messages into contested evidence and consequential decisions; the new prologue opens with the modern recovery of Mary Stuart’s letters. Chapter 20 completes that recovery. The history stands on its own, with optional museum exhibits and a fictional reader mystery.
+The book description and opening excerpt match the **2 November 2026 reader-experience revision** and the [public museum companion](https://ciphermuseum.com/the-book.html). The approved title, subtitle, cover, and reader promise are retained. Twenty true investigations follow hidden messages into contested evidence and consequential decisions; the new prologue opens with the modern recovery of Mary Stuart’s letters. Chapter 20 completes that recovery. The history stands on its own, with optional museum exhibits and a fictional reader mystery.
+
+The book page links directly to the museum’s twenty-chapter directory, describes the four optional slips and notebook, and lists eight diagrams plus six documentary images.
 
 The book is marked **Forthcoming**. There are no invented reviews, prices, release dates, or purchase links. The website publishes an excerpt, not the full manuscript.
 
